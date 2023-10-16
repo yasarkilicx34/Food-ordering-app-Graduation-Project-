@@ -12,7 +12,7 @@ struct SplashScreenView: View {
             ContentView ()
         } else {
             ZStack {
-                Color.black.edgesIgnoringSafeArea(.all) // Sadece SplashScreenView'in arka planını siyah yapar
+                Color.black.edgesIgnoringSafeArea(.all) 
                 
                 VStack {
                     Image("pasha")
